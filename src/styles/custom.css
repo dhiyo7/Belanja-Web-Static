@@ -77,14 +77,16 @@
   justify-content: center;
   align-items: center;
   flex-direction: column;
+  width: 400px;
+  padding: 10px auto;
   margin-top: 40px;
 }
 
 .form-control {
   width: 100% !important;
   padding: 12px 20px;
-  margin: 16px 0 auto auto;
-  display: inline-block;
+  margin: 16px 0 0 0;
+  display: block;
   border: 1px solid #9b9b9b;
   border-radius: 4px;
   box-sizing: border-box;
@@ -95,6 +97,7 @@
   color: #db3022;
   font-size: 14px;
   margin-top: 26px;
+  margin-bottom: 26px;
 }
 
 .btn-login {
@@ -103,9 +106,17 @@
   border-radius: 25px;
   margin-top: 26px;
 }
+.btn-login .link{
+  background: #db3022;
+  color: #ffffff;
+  border-radius: 25px;
+  margin-top: 26px;
+  text-decoration: none;
+}
 
 .font-register {
   color: #db3022;
+  text-decoration: none;
 }
 
 .font-account {
