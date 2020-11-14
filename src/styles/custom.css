@@ -5,13 +5,12 @@
   src: url("../fonts/Metropolis-Regular.otf") format("otf");
 }
 
-.container {
+.nav-main {
   height: 100%;
   display: flex;
   justify-content: center;
   align-items: center;
   flex-direction: column;
-  margin-top: 20px;
 }
 
 .header-form {
@@ -157,6 +156,7 @@ nav {
   box-sizing: border-box;
   padding: 5px 40px;
   z-index: 1;
+  margin-top: 20px;
 }
 .menu {
   display: flex;
@@ -272,9 +272,9 @@ a {
   }
   .search .fa-search {
     margin-top: 13px;
-    margin-left: 50px;
+    margin-left: 90px;
     margin-right: 0;
-    color: #DADADA, 100%;
+    color: #dadada, 100%;
   }
   .cart {
     margin-left: -10px !important;
@@ -291,11 +291,52 @@ a {
   }
 }
 
-.row{
-  display: flex;
+.carousel-control-prev-icon,
+.carousel-control-next-icon {
+  height: 40px;
+  width: 40px;
+  outline: #9b9b9b;
+  background-size: 100%, 100%;
+
+  border-radius: 50%;
+  border: 1px solid #9b9b9b;
+  background-color: #9b9b9b;
 }
 
-.promotion-center {
-  width:450px;
-  height:180px;
+.centered {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-size: 30px;
+  font-weight: bold;
+  color: white;
+}
+.card-promotion-small-first img {
+  width: 70px;
+  height: 180px;
+  border-radius: 8px;
+  object-fit: cover;
+  object-position: 65% 27%;
+}
+.card-promotion-big img {
+  width: 450px;
+  height: 180px;
+  border-radius: 8px;
+  object-fit: cover;
+  object-position: 0 8%;
+}
+.card-promotion-big-two img {
+  width: 450px;
+  height: 180px;
+  border-radius: 8px;
+  object-fit: cover;
+  object-position: 0 27%;
+}
+.card-promotion-small-last img {
+  width: 70px;
+  height: 180px;
+  border-radius: 8px;
+  object-fit: cover;
+  object-position: 12% 27%;
 }
