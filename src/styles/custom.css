@@ -13,6 +13,14 @@
   flex-direction: column;
 }
 
+.main {
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
 .header-form {
   display: flex;
   text-align: center;
@@ -354,6 +362,7 @@ a {
 
 .section-div {
   margin-top: 40px;
+  
 }
 
 .centered {
