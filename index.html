@@ -15,37 +15,39 @@
 </head>
 
 <body>
-  <div class="container nav-main ">
+  <div class="container">
     <!-- Navbar  -->
-    <nav navbar navbar-inverse navbar-fixed-top>
-      <a class="logo" style="text-decoration: none">
-        <img src="./src/images/VectorlogoKecil.png" alt="" />
-        <span class="n-logo">Blanja</span>
-      </a>
-      <ul class="menu">
-        <div class="search">
-          <i class="fa fa-search"></i>
-          <input type="text" class="input-search" placeholder="Search" />
+    <div class="container-nav">
+      <nav>
+        <div class="nav-start">
+          <img src="./src/images/VectorlogoKecil.png" alt="">
+          <span class="font-logo">Blanja</span>
         </div>
-        <li class="cart">
-          <a>
-            <img src="./src/images/cart.png" alt="" />
-          </a>
-        </li>
-        <li class="login">
-          <a href="login.html"> Login </a>
-          <!-- <a class="link" href="login.html"> PRIMARY </a> -->
-        </li>
-        <li class="signup">
-          <a href="register.html"> SignUp </a>
-        </li>
-      </ul>
-    </nav>
+
+        <div class="nav-center">
+          <div class="input-search">
+            <i class="fa fa-search icon-search"></i>
+            <input type="text" class="input-search-field" placeholder="Search">
+          </div>
+          <div class="icon-filter">
+            <i class="fa fa-filter"></i>
+          </div>
+        </div>
+        <div class="nav-end">
+          <div class="icon-cart float-right">
+            <img src="./src/images/cart.png" alt="" srcset="">
+          </div>
+          <i class="fa fa-sign-in" aria-hidden="true"></i>
+          <a href="" class="btn-login-nav">Login</a>
+          <a href="" class="btn-signup-nav">Sign Up</a>
+        </div>
+      </nav>
+    </div>
     <!-- End Nav -->
   </div>
 
   <!-- Slider -->
-  <div class="container mt-5">
+  <div class="container" style="margin-top: 100px;">
     <div id="carouselExampleControls" class="carousel slide" data-ride="carousel">
       <div class="carousel-inner">
         <div class="carousel-item active">
@@ -84,13 +86,6 @@
         <span class="sr-only">Next</span>
       </a>
     </div>
-    <!-- <div class="d-flex flex-row p-2">
-      <ul></ul>
-      <li></li>
-      <li></li>
-      <li></li>
-      <li></li>
-    </div> -->
   </div>
   <!-- End Slider -->
 
