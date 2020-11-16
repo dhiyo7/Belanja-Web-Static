@@ -224,9 +224,12 @@ nav {
   -webkit-text-stroke-color: #9b9b9b;
 }
 
+nav .fa-sign-in {
+  display: none;
+}
+
 .btn-login-nav,
-.btn-signup-nav,
-.icon-cart {
+.btn-signup-nav {
   width: 40px;
   height: 40px;
   display: flex;
@@ -234,10 +237,15 @@ nav {
   align-items: center;
 }
 
-.icon-cart img {
+.icon-cart {
+  float: right;
+  margin-right: 0;
+}
+
+/* .icon-cart img {
   width: 22px;
   height: 22px;
-}
+} */
 
 .btn-login-nav,
 .btn-signup-nav {
@@ -272,10 +280,6 @@ nav {
     box-sizing: border-box;
   }
 
-  .nav-start {
-    display: none;
-  }
-
   .input-search {
     width: 100%;
     height: 40px;
@@ -296,7 +300,7 @@ nav {
     outline: 0;
     border: 1px solid #9b9b9b;
     border-radius: 25px;
-    background-image: url(../images/VectorlogoKecil.png);
+    background-image: url("../images/VectorlogoKecil.png");
     background-repeat: no-repeat;
     background-position-x: 5%;
     background-position-y: 50%;
@@ -310,14 +314,32 @@ nav {
     color: #9b9b9b;
   }
 
-  .nav-end {
-    width: auto;
-    margin: auto;
+  .nav-logo {
+    display: none;
+  }
+
+  .icon-filter {
+    display: none;
+  }
+
+  nav .fa-sign-in {
+    display: block;
+    color: #9b9b9b;
   }
 
   .btn-login-nav,
   .btn-signup-nav {
     display: none;
+  }
+
+  .centered {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 20px;
+    font-weight: 700;
+    color: #fff;
   }
 }
 
@@ -370,7 +392,7 @@ nav {
   left: 50%;
   transform: translate(-50%, -50%);
   font-size: 25px;
-  font-weight: 700;
+  font-weight: bold;
   color: #fff;
 }
 
@@ -382,15 +404,15 @@ nav {
 .flex-category {
   display: flex;
   flex-wrap: wrap;
-  justify-content: space-around;
+  justify-content: space-between;
 }
 
 .category-shorts,
 .category-t-shirt {
   margin-bottom: 25px;
-  margin-left: 0;
-  margin-right: 0;
-  width: 100%;
+  /* margin-left: 0;
+  margin-right: 0; */
+  /* width: 100%; */
   height: 220px;
   border-radius: 8px;
   position: relative;
@@ -412,9 +434,7 @@ nav {
 .category-pants,
 .category-shoes {
   margin-bottom: 25px;
-  margin-left: 0;
-  margin-right: 0;
-  width: 100%;
+  /* width: 100%; */
   height: 220px;
   border-radius: 8px;
   position: relative;
@@ -437,8 +457,8 @@ nav {
 
 .card-news {
   margin-bottom: 25px;
-  width: 205px;
-  height: 280px;
+  /* width: 100%;
+  height: 280px; */
   border-radius: 8px;
 }
 
