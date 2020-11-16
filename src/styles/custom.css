@@ -4,30 +4,25 @@
   font-weight: 300;
   src: url(../fonts/Metropolis-Regular.otf) format("otf");
 }
-
 .header-form,
 .header-nav,
 .main {
   display: flex;
   justify-content: center;
 }
-
 .main {
   height: 100%;
   align-items: center;
   flex-direction: column;
 }
-
 .header-form,
 .header-nav {
   text-align: center;
 }
-
 .header-nav img {
   width: 32px;
   height: 44px;
 }
-
 .header-form span,
 .header-nav span {
   font-size: 25px;
@@ -36,11 +31,9 @@
   color: #db3022;
   padding: 5px;
 }
-
 .header-nav span {
   font-size: 24px;
 }
-
 .font-login {
   color: #222;
   font-weight: 700;
@@ -48,45 +41,37 @@
   margin-bottom: 30px;
   font-size: 18px;
 }
-
 .btn-group {
   margin: 0 auto;
   display: inline-block;
 }
-
 .btn-group button {
   float: left;
 }
-
 .btn-group button:first-child {
   border-top-left-radius: 4px;
   border-bottom-left-radius: 4px;
 }
-
 .btn-group button:last-child {
   border-top-right-radius: 4px;
   border-bottom-right-radius: 4px;
 }
-
 .btn-red,
 .btn-white {
   width: 100px;
   height: 40px;
   font-size: 14px;
 }
-
 .btn-white {
   color: #222;
   border: 1px solid #9b9b9b;
   background: #fff;
 }
-
 .btn-red {
   color: #fff;
   border: 1px solid #db3022;
   background: #db3022;
 }
-
 .form-login {
   justify-content: center;
   align-items: center;
@@ -95,7 +80,6 @@
   padding: 10px auto;
   margin-top: 40px;
 }
-
 .form-control {
   width: 100% !important;
   padding: 12px 20px;
@@ -105,7 +89,6 @@
   border-radius: 4px;
   box-sizing: border-box;
 }
-
 .font-forgot {
   float: right;
   color: #db3022;
@@ -113,7 +96,6 @@
   margin-top: 26px;
   margin-bottom: 26px;
 }
-
 .btn-login,
 .btn-login .link {
   background: #db3022;
@@ -121,30 +103,25 @@
   border-radius: 25px;
   margin-top: 26px;
 }
-
 .font-register {
   color: #db3022;
   text-decoration: none;
 }
-
 .font-account {
   text-align: center;
   font-size: 12px;
   margin-top: 40px;
   margin-bottom: 20px;
 }
-
 .btn-login .link,
 .nav-end a,
 a {
   text-decoration: none;
 }
-
 .container-nav {
   display: inline-flex;
   flex-flow: column;
 }
-
 nav {
   width: 83%;
   height: 100px;
@@ -154,14 +131,12 @@ nav {
   z-index: 99;
   background-color: #fff;
 }
-
 nav .font-logo {
   color: #db3022;
   font-size: 24px;
   font-weight: 700;
   margin-left: 5px;
 }
-
 .nav-center,
 .nav-end,
 .nav-start,
@@ -169,23 +144,19 @@ nav {
   display: flex;
   align-items: center;
 }
-
 .nav-end,
 nav {
   justify-content: space-between;
 }
-
 .nav-end {
   width: 250px;
   margin-right: 10px;
 }
-
 .input-search {
   width: 507px;
   height: 40px;
   position: relative;
 }
-
 .input-search .icon-search {
   position: absolute;
   right: 0;
@@ -193,7 +164,6 @@ nav {
   margin-top: 12px;
   color: #9b9b9b;
 }
-
 .input-search-field {
   width: 100%;
   height: 100%;
@@ -201,13 +171,11 @@ nav {
   border: 1px solid #9b9b9b;
   border-radius: 25px;
 }
-
 .input-search-field::placeholder {
   font-size: 12px;
   padding-left: 30px;
   color: #9b9b9b;
 }
-
 .icon-filter {
   width: 36px;
   height: 36px;
@@ -217,17 +185,14 @@ nav {
   text-align: center;
   margin-left: 10px;
 }
-
 .icon-filter i {
   color: #fff;
   -webkit-text-stroke: 1px;
   -webkit-text-stroke-color: #9b9b9b;
 }
-
 nav .fa-sign-in {
   display: none;
 }
-
 .btn-login-nav,
 .btn-signup-nav {
   width: 40px;
@@ -236,17 +201,10 @@ nav .fa-sign-in {
   justify-content: center;
   align-items: center;
 }
-
 .icon-cart {
   float: right;
   margin-right: 0;
 }
-
-/* .icon-cart img {
-  width: 22px;
-  height: 22px;
-} */
-
 .btn-login-nav,
 .btn-signup-nav {
   background-color: #db3022;
@@ -256,13 +214,11 @@ nav .fa-sign-in {
   font-size: 12px;
   color: #fff;
 }
-
 .btn-signup-nav {
   background-color: #fff;
   border: 1px solid #9b9b9b;
   color: #9b9b9b;
 }
-
 @media (max-width: 580px) {
   nav {
     display: flex;
@@ -279,13 +235,11 @@ nav .fa-sign-in {
     background-color: #fff;
     box-sizing: border-box;
   }
-
   .input-search {
     width: 100%;
     height: 40px;
     position: relative;
   }
-
   .input-search .icon-search {
     position: absolute;
     right: 0;
@@ -293,45 +247,38 @@ nav .fa-sign-in {
     margin-top: 12px;
     color: #9b9b9b;
   }
-
   .input-search-field {
     width: 100%;
     height: 100%;
     outline: 0;
     border: 1px solid #9b9b9b;
     border-radius: 25px;
-    background-image: url("../images/VectorlogoKecil.png");
+    background-image: url(../images/VectorlogoKecil.png);
     background-repeat: no-repeat;
     background-position-x: 5%;
     background-position-y: 50%;
     background-size: 15px;
     resize: vertical;
   }
-
   .input-search-field::placeholder {
     font-size: 12px;
     padding-left: 30px;
     color: #9b9b9b;
   }
-
   .nav-logo {
     display: none;
   }
-
   .icon-filter {
     display: none;
   }
-
   nav .fa-sign-in {
     display: block;
     color: #9b9b9b;
   }
-
   .btn-login-nav,
   .btn-signup-nav {
     display: none;
   }
-
   .centered {
     position: absolute;
     top: 50%;
@@ -341,8 +288,19 @@ nav .fa-sign-in {
     font-weight: 700;
     color: #fff;
   }
+  .card-promotion-small-first,
+  .card-promotion-big-two,
+  .card-promotion-small-last{
+    display:none;
+  }
+  .card-promotion-big{
+    width:auto;
+  }
+  .card-promotion-big img{
+    width:100%;
+    border-radius: 8px;
+  }
 }
-
 .card-promotion-small-first img {
   width: 70px;
   height: 180px;
@@ -350,7 +308,6 @@ nav .fa-sign-in {
   object-fit: cover;
   object-position: 65% 27%;
 }
-
 .card-promotion-big img,
 .card-promotion-big-two img,
 .card-promotion-small-last img {
@@ -360,17 +317,14 @@ nav .fa-sign-in {
   object-fit: cover;
   object-position: 0 8%;
 }
-
 .card-promotion-big-two img,
 .card-promotion-small-last img {
   object-position: 0 27%;
 }
-
 .card-promotion-small-last img {
   width: 70px;
   object-position: 12% 27%;
 }
-
 .carousel-control-next-icon,
 .carousel-control-prev-icon {
   height: 40px;
@@ -381,92 +335,71 @@ nav .fa-sign-in {
   border: 1px solid #9b9b9b;
   background-color: #9b9b9b;
 }
-
 .section-div {
   margin-top: 40px;
 }
-
 .centered {
   position: absolute;
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
   font-size: 25px;
-  font-weight: bold;
+  font-weight: 700;
   color: #fff;
 }
-
 .font-p-title {
   font-size: 12px;
   color: #9b9b9b;
 }
-
 .flex-category {
   display: flex;
   flex-wrap: wrap;
   justify-content: space-between;
 }
-
 .category-shorts,
 .category-t-shirt {
   margin-bottom: 25px;
-  /* margin-left: 0;
-  margin-right: 0; */
-  /* width: 100%; */
   height: 220px;
   border-radius: 8px;
   position: relative;
 }
-
 .category-t-shirt {
   background: #db3022;
 }
-
 .category-shorts {
   background: #1c3391;
 }
-
 .category-jacket {
   background: #f67b02;
 }
-
 .category-jacket,
 .category-pants,
 .category-shoes {
   margin-bottom: 25px;
-  /* width: 100%; */
   height: 220px;
   border-radius: 8px;
   position: relative;
 }
-
 .category-pants {
   background: #e31f51;
 }
-
 .category-shoes {
   background: #57cd9e;
 }
-
 .flex-news {
   display: flex;
   justify-content: space-between;
   flex-direction: row;
   flex-wrap: wrap;
 }
-
 .card-news {
   margin-bottom: 25px;
-  /* width: 100%;
-  height: 280px; */
   border-radius: 8px;
 }
-
 .p-price {
   color: #e31f51;
   margin: 0;
 }
-
 .p-store {
   color: #9b9b9b;
   font-size: 12px;
